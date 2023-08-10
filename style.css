@@ -263,3 +263,49 @@ padding-top: 25px;
 .copyright{
     padding-top: 5px;
 }
+/* ---------------------------------------------------------- */
+/* media-quary */
+/* Your existing CSS rules */
+
+/* Add a media query for screens with maximum width of 768px (typical mobile breakpoint) */
+@media (max-width: 768px) {
+    /* Navbar adjustments */
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+    
+    .nav-logo {
+      margin-bottom: 10px;
+    }
+    
+    .nav-search {
+      width: 100%;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .search-select, .search-input, .search-icon {
+      width: auto;
+      border-radius: 0;
+    }
+    
+    /* Other adjustments for smaller screens */
+    .panel {
+      flex-direction: column;
+    }
+    
+    .box {
+      width: 45%;
+      margin: 10px 0;
+    }
+    
+    /* Adjust footer layout */
+    .foot-panel2 {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  }
+  
